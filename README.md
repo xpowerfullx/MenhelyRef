@@ -28,5 +28,5 @@ username: "Nagy Tamás"
 password: "asd"
 
 OrokbefogadoClient:
-username: Álmos Anna 
-password: csattan
+username: "Álmos Anna" 
+password: "csattan"
