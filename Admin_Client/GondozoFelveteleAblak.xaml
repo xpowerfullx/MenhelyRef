@@ -1,0 +1,21 @@
+﻿<Window x:Class="Admin_Client.GondozoFelveteleAblak"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gondozó Felvétele" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Height="251.9" Width="300">
+    <Grid Margin="0,0,0,4">
+        <GroupBox Header="Gondozó" HorizontalAlignment="Left" Height="157" Margin="10,10,0,0" VerticalAlignment="Top" Width="272">
+            <Grid>
+                <Label Content="Név: " HorizontalAlignment="Left" Height="25" Margin="4,14,0,0" VerticalAlignment="Top" Width="85"/>
+                <TextBox x:Name="nev_box" HorizontalAlignment="Left" Height="27" Margin="94,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="156"/>
+                <Label Content="Beosztás:" HorizontalAlignment="Left" Height="25" Margin="5,74,0,0" VerticalAlignment="Top" Width="85"/>
+                <ComboBox x:Name="BeosztasComboBox" HorizontalAlignment="Left" Height="23" Margin="95,78,0,0" SelectionChanged="BeosztasComboBox_SelectionChanged" VerticalAlignment="Top" Width="157"/>
+                <Label Content="Jelszó:" HorizontalAlignment="Left" Height="25" Margin="5,44,0,0" VerticalAlignment="Top" Width="85"/>
+                <PasswordBox x:Name="jelszo_box" HorizontalAlignment="Left" Height="27" Margin="95,46,0,0" VerticalAlignment="Top" Width="156"/>
+                <Label Content="Telephely:" HorizontalAlignment="Left" Height="25" Margin="5,104,0,0" VerticalAlignment="Top" Width="85"/>
+                <ComboBox x:Name="TelephelyComboBox" SelectedItem="{Binding KivTelephely}" ItemsSource="{Binding Telephelyek}" DisplayMemberPath="Cim" HorizontalAlignment="Left" Height="23" Margin="95,106,0,0" SelectionChanged="BeosztasComboBox_SelectionChanged" VerticalAlignment="Top" Width="157"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="MegseButton" Content="Mégse" Width="120" Click="MegseButton_Click" Margin="10,184,0,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button x:Name="MentesButton" Content="Mentés" Width="120" Click="MentesButton_Click" Margin="0,184,10,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+    </Grid>
+</Window>

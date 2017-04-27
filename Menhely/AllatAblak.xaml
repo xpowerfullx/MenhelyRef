@@ -1,0 +1,31 @@
+﻿<Window x:Class="Menhely.AllatAblak"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Állat adatai" Height="480.15" Width="415" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <TextBox x:Name="alfajTB" HorizontalAlignment="Left" Height="23" Margin="92,64,0,0" TextWrapping="Wrap" Text="{Binding AlFaj}" VerticalAlignment="Top" Width="120" IsReadOnly="{Binding zaroltAblak}"/>
+        <TextBox x:Name="korTB" HorizontalAlignment="Left" Height="23" Margin="92,90,0,0" TextWrapping="Wrap" Text="{Binding Kor}" VerticalAlignment="Top" Width="120" PreviewTextInput="NumberValidationTextBox" IsReadOnly="{Binding zaroltAblak}"/>
+        <TextBox x:Name="leirasTB" HorizontalAlignment="Left" Height="23" Margin="92,118,0,0" TextWrapping="Wrap" Text="{Binding Leiras}" VerticalAlignment="Top" Width="305" IsReadOnly="{Binding zaroltAblak}"/>
+        <Label Content="Telephely:" HorizontalAlignment="Left" Margin="217,9,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="telephelyLabel" Content="{Binding Ketrec.Hely.Cim}" HorizontalAlignment="Left" Margin="256,35,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="gondozokLB" ItemsSource="{Binding Gondozok}" DisplayMemberPath="Nev" HorizontalAlignment="Left" Height="70" Margin="10,172,0,0" VerticalAlignment="Top" Width="187"/>
+        <ListBox x:Name="jegyzokonyvLB" ItemsSource="{Binding Gondozasok}" Height="136" Margin="10,278,12,0" VerticalAlignment="Top"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="284,419,0,0" Width="110" Click="btOK" IsDefault="True" Height="20" VerticalAlignment="Top"/>
+        <Button Content="Mégse" HorizontalAlignment="Left" Margin="169,419,0,0" VerticalAlignment="Top" Width="110" Click="btMegse" IsCancel="True"/>
+        <Label x:Name="nevLabel" Content="{Binding Nev}" HorizontalAlignment="Left" Margin="92,9,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="fajLabel" Content="{Binding Faj}" HorizontalAlignment="Left" Margin="92,35,0,0" VerticalAlignment="Top"/>
+        <Label Content="Állat neve:" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.219,0.923"/>
+        <Label Content="Állat faja:" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top"/>
+        <Label Content="Állat alfaja:" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top"/>
+        <Label Content="Állat kora:" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top"/>
+        <Label Content="Állat leírása:" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top"/>
+        <Label Content="Állat gondozói:" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top"/>
+        <Label Content="Velük van egy ketrecben:" HorizontalAlignment="Left" Margin="202,146,0,0" VerticalAlignment="Top"/>
+        <Label Content="Jegyzőkönyvek az állat gondozásairól:" HorizontalAlignment="Left" Margin="10,247,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="ketrecLB" ItemsSource="{Binding Ketrec.Allatok}" DisplayMemberPath="Nev" HorizontalAlignment="Left" Height="70" Margin="202,172,0,0" VerticalAlignment="Top" Width="195"/>
+        <Label Content="Ketrec:" HorizontalAlignment="Left" Margin="217,56,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="telephelyLabel_Copy" Content="{Binding Ketrec.KetrecID}" HorizontalAlignment="Left" Margin="256,82,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>

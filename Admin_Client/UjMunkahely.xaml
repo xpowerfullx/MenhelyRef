@@ -1,0 +1,11 @@
+﻿<Window x:Class="Admin_Client.UjMunkahely"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Új munkahely hozzáadása" Height="152.101" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Width="321.008">
+    <Grid>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="267"/>
+        <Label x:Name="label" Content="Telephelyek:" HorizontalAlignment="Left" Margin="26,4,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,0.007" Width="114"/>
+        <Button x:Name="button" Content="Felvesz" HorizontalAlignment="Left" Click="button_Click" VerticalAlignment="Top" Width="130" Margin="10,71,0,0"/>
+
+    </Grid>
+</Window>

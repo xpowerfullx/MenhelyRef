@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Menhely" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Menhely" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="Allat">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlFaj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Allapot" type="tns:OrokbefogadasAllapot" />
+      <xs:element minOccurs="0" name="Faj" type="tns:AllatFaj" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Gondozasok" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="Gondozok" nillable="true" type="tns:ArrayOfGondozo" />
+      <xs:element minOccurs="0" name="Ketrec" nillable="true" type="tns:Ketrec" />
+      <xs:element minOccurs="0" name="Kor" type="xs:int" />
+      <xs:element minOccurs="0" name="Leiras" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nev" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Orokbefogado" nillable="true" type="tns:Orokbefogado" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Allat" nillable="true" type="tns:Allat" />
+  <xs:simpleType name="OrokbefogadasAllapot">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Szabad" />
+      <xs:enumeration value="Foglalt" />
+      <xs:enumeration value="ÖrökbeAdva" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="OrokbefogadasAllapot" nillable="true" type="tns:OrokbefogadasAllapot" />
+  <xs:simpleType name="AllatFaj">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Kutya" />
+      <xs:enumeration value="Macska" />
+      <xs:enumeration value="Róka" />
+      <xs:enumeration value="Süni" />
+      <xs:enumeration value="Egyéb" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AllatFaj" nillable="true" type="tns:AllatFaj" />
+  <xs:complexType name="ArrayOfGondozo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Gondozo" nillable="true" type="tns:Gondozo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGondozo" nillable="true" type="tns:ArrayOfGondozo" />
+  <xs:complexType name="Gondozo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Beosztas" type="tns:GondozoBeosztas" />
+      <xs:element minOccurs="0" name="GondozottAllatok" nillable="true" type="tns:ArrayOfAllat" />
+      <xs:element minOccurs="0" name="Jelszo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Munkahelyek" nillable="true" type="tns:ArrayOfTelephely" />
+      <xs:element minOccurs="0" name="Nev" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UtolsoCselekves" type="xs:dateTime" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Gondozo" nillable="true" type="tns:Gondozo" />
+  <xs:simpleType name="GondozoBeosztas">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Adminisztrátor" />
+      <xs:enumeration value="Gondozó" />
+      <xs:enumeration value="Befogó" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="GondozoBeosztas" nillable="true" type="tns:GondozoBeosztas" />
+  <xs:complexType name="ArrayOfAllat">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Allat" nillable="true" type="tns:Allat" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAllat" nillable="true" type="tns:ArrayOfAllat" />
+  <xs:complexType name="ArrayOfTelephely">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Telephely" nillable="true" type="tns:Telephely" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTelephely" nillable="true" type="tns:ArrayOfTelephely" />
+  <xs:complexType name="Telephely">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cim" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Dolgozok" nillable="true" type="tns:ArrayOfGondozo" />
+      <xs:element minOccurs="0" name="Ketrecek" nillable="true" type="tns:ArrayOfKetrec" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Telephely" nillable="true" type="tns:Telephely" />
+  <xs:complexType name="ArrayOfKetrec">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Ketrec" nillable="true" type="tns:Ketrec" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKetrec" nillable="true" type="tns:ArrayOfKetrec" />
+  <xs:complexType name="Ketrec">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Allatok" nillable="true" type="tns:ArrayOfAllat" />
+      <xs:element minOccurs="0" name="Faj" type="tns:AllatFaj" />
+      <xs:element minOccurs="0" name="Hely" nillable="true" type="tns:Telephely" />
+      <xs:element minOccurs="0" name="KetrecID" type="xs:int" />
+      <xs:element minOccurs="0" name="Meret" type="xs:int" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Ketrec" nillable="true" type="tns:Ketrec" />
+  <xs:complexType name="Orokbefogado">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Adomany" type="xs:int" />
+      <xs:element minOccurs="0" name="Jelszo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nev" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrokbeFogadando" nillable="true" type="tns:ArrayOfAllat" />
+      <xs:element minOccurs="0" name="UtolsoCselekves" type="xs:dateTime" />
+    </xs:sequence>
+    <xs:attribute ref="ser:Id" />
+    <xs:attribute ref="ser:Ref" />
+  </xs:complexType>
+  <xs:element name="Orokbefogado" nillable="true" type="tns:Orokbefogado" />
+  <xs:complexType name="ArrayOfOrokbefogado">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Orokbefogado" nillable="true" type="tns:Orokbefogado" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOrokbefogado" nillable="true" type="tns:ArrayOfOrokbefogado" />
+</xs:schema>

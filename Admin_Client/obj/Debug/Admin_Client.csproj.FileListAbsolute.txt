@@ -1,0 +1,86 @@
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\bin\Debug\Admin_Client.exe.config
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\FoAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\GondozoFelveteleAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\KetrecFelveteleAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\KetrecModositasaAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\MainWindow.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\TelephelyFelveteleAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\FoAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\GondozoFelveteleAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\KetrecFelveteleAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\KetrecModositasaAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\MainWindow.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\TelephelyFelveteleAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\App.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client_MarkupCompile.cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.g.resources
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\bin\Debug\Admin_Client.exe
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\bin\Debug\Admin_Client.pdb
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.Properties.Resources.resources
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.csproj.GenerateResource.Cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.exe
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.pdb
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\bin\Debug\Admin_Client.exe.config
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.exe
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.pdb
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\bin\Debug\Admin_Client.exe
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\bin\Debug\Admin_Client.pdb
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.csprojResolveAssemblyReference.cache
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\FoAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\GondozoFelveteleAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\KetrecFelveteleAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\KetrecModositasaAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\MainWindow.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\TelephelyFelveteleAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\FoAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\GondozoFelveteleAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\KetrecFelveteleAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\KetrecModositasaAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\MainWindow.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\TelephelyFelveteleAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\App.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client_MarkupCompile.cache
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.g.resources
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.Properties.Resources.resources
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.csproj.GenerateResource.Cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\AllatAthelyezeseAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\AllatAthelyezeseAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\bin\Debug\Admin_Client.exe.config
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.exe
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.pdb
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\bin\Debug\Admin_Client.exe
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\bin\Debug\Admin_Client.pdb
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.csprojResolveAssemblyReference.cache
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\AllatAthelyezeseAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\FoAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\GondozoFelveteleAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\KetrecFelveteleAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\KetrecModositasaAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\MainWindow.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\TelephelyFelveteleAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\AllatAthelyezeseAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\FoAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\GondozoFelveteleAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\KetrecFelveteleAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\KetrecModositasaAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\MainWindow.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\TelephelyFelveteleAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\App.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client_MarkupCompile.cache
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.g.resources
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.Properties.Resources.resources
+C:\Users\hallgato\Desktop\Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.csproj.GenerateResource.Cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\GondozoModositasAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client_MarkupCompile.lref
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\GondozoModositasAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\Admin_Client.csprojResolveAssemblyReference.cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\AllatmodositasAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\UjGondozasAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\AllatmodositasAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\UjGondozasAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\MunkahelyModositasAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\MunkahelyModositasAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\UjMunkahely.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Admin_Client\obj\Debug\UjMunkahely.g.cs
+C:\Users\xpowe\Desktop\AnDiktalBT_forras\Menhely\Admin_Client\bin\Debug\Admin_Client.exe.config
+C:\Users\HP\Documents\AnDiktalBT_forras\AnDiktalBT_forras\Menhely\Admin_Client\bin\Debug\Admin_Client.exe.config

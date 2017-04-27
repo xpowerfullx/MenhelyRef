@@ -1,0 +1,11 @@
+﻿<Window x:Class="Menhely.GondozasAblak"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="XY nevű állat gondozása" Height="186.667" Width="546" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="jegyzokonyvTB" HorizontalAlignment="Left" Height="85" Margin="10,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="518" AcceptsReturn="True"/>
+        <Button Content="Gondozás" HorizontalAlignment="Left" Margin="410,126,0,0" VerticalAlignment="Top" Width="118" Click="btGondozas" IsDefault="True"/>
+        <Button Content="Mégse" HorizontalAlignment="Left" Margin="287,126,0,0" VerticalAlignment="Top" Width="118" Click="btMegse" IsCancel="True"/>
+        <Label Content="Jegyzőköny:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

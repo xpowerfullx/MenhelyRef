@@ -1,0 +1,76 @@
+﻿<Window x:Class="Admin_Client.FoAblak"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cicabarát menhely Admin alkalmazás" Height="520" Width="1000" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="113" Margin="10,24,0,0" VerticalAlignment="Top" Width="238" Source="Resources/logo.png" StretchDirection="DownOnly"/>
+        <TabControl x:Name="gombokTab" HorizontalAlignment="Left" Height="274" Margin="10,150,0,0" VerticalAlignment="Top" Width="223" SelectionChanged="TabControl_SelectionChanged">
+            <TabItem Header="Telephely">
+                <Grid Background="#FFE5E5E5">
+                    <GroupBox Header="Adatok kezelése" Margin="10">
+                        <StackPanel HorizontalAlignment="Left" Height="187" Margin="4,16,0,0" VerticalAlignment="Top" Width="178">
+                            <Button x:Name="TelephelyFelveteleButton" Content="Telephely felvétele" Height="30" Click="TelephelyFelveteleButton_Click"/>
+                            <Button x:Name="TelephelyMegszunteteseButton" IsEnabled="{Binding LockTelephely}" Content="Telephely megszüntetése" Height="30" Click="TelephelyMegszunteteseButton_Click"/>
+                            <Button x:Name="KetrecFelveteleButton" IsEnabled="{Binding LockTelephely}" Content="Ketrec felvétele" Height="30" Click="KetrecFelveteleButton_Click"/>
+                            <Button x:Name="KetrecModositasaButton" IsEnabled="{Binding LockKetrec}" Content="Ketrec módosítása" Height="30" Click="KetrecModositasaButton_Click"/>
+                            <Button x:Name="KetrecTorleseButton" IsEnabled="{Binding LockKetrec}" Content="Ketrec törlése" Height="30" Click="KetrecTorleseButton_Click"/>
+                            <Button x:Name="AllatAthelyezeseButton" IsEnabled="{Binding LockKetrec}" Content="Állat áthelyezése" Height="30" Click="AllatAthelyezeseButton_Click"/>
+                        </StackPanel>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Gondozó">
+                <Grid Background="#FFE5E5E5">
+                    <GroupBox Header="Adatok kezelése" Margin="10,10,10,0" Height="226" VerticalAlignment="Top">
+                        <StackPanel HorizontalAlignment="Left" Height="152" Margin="4,16,0,0" VerticalAlignment="Top" Width="178">
+                            <Button x:Name="GondozoFelveteleButton" Content="Gondozó felvétele" Height="30" Click="GondozoFelveteleButton_Click"/>
+                            <Button x:Name="GondozoModositasaButton" Content="Gondozó módosítása >>" Height="30" Click="GondozoModositasaButton_Click"/>
+                            <Button x:Name="GondozoTorleseButton" Content="Gondozó törlése" Height="30" Click="GondozoTorleseButton_Click"/>
+                            <Button x:Name="AllatmodositasaButton" IsEnabled="{Binding LockAllat}" Content="Állatok módosítása" Height="30" Click="AllatMOdositasButton_Click"/>
+                            <Button x:Name="MunkahelymodositasaButton" IsEnabled="{Binding LockAllat}" Content="Munkahelyek módosítása" Height="30" Click="MunkahelymodositasaButton_Click" />
+                        </StackPanel>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+        <Button x:Name="KilepesButton" Content="Kilépés" HorizontalAlignment="Left" Margin="56,435,0,0" VerticalAlignment="Top" Width="122" Height="29" Click="KilepesButton_Click"/>
+        <TabControl x:Name="tablazatTab" HorizontalAlignment="Left" Height="447" Margin="253,24,0,0" VerticalAlignment="Top" Width="718" SelectionChanged="tablazatTab_SelectionChanged">
+            <TabItem Header="Telephely lista">
+                <Grid>
+                    <DataGrid x:Name="telephelyGrid" ItemsSource="{Binding Telephelyek}" SelectedItem="{Binding KivTelephely}" IsReadOnly="True" AutoGenerateColumns="False" Margin="0,0,308,0">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Címe" Width="180" Binding="{Binding Cim}" />
+                            <DataGridTextColumn Header="Dolgozók száma" Width="110" Binding="{Binding Dolgozok.Count}" />
+                            <DataGridTextColumn Header="Ketrecek száma" Width="110" Binding="{Binding Ketrecek.Count}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <DataGrid IsReadOnly="True" AutoGenerateColumns="False" SelectedItem="{Binding KivKetrec}" ItemsSource="{Binding Ketrecek}" HorizontalAlignment="Left" Height="419" Margin="404,0,0,0" VerticalAlignment="Top" Width="308">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Width="50" Binding="{Binding KetrecID}" />
+                            <DataGridTextColumn Header="Állatfaj" Width="100" Binding="{Binding Faj}" />
+                            <DataGridTextColumn Header="Méret" Width="75" Binding="{Binding Meret}" />
+                            <DataGridTextColumn Header="Foglalt" Width="75" Binding="{Binding Allatok.Count}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Gondozó lista">
+                <Grid>
+                    <DataGrid x:Name="gondozoGrid" ItemsSource="{Binding Gondozok}" SelectedItem="{Binding KivGondozo}" IsReadOnly="True" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Név" Width="200" Binding="{Binding Nev}"/>
+                            <DataGridTextColumn Header="Beosztás" Binding="{Binding Beosztas}" />
+                            <DataGridTextColumn Header="Utolsó Cselekvés" Binding="{Binding UtolsoCselekves}" />
+                            <DataGridTextColumn Header="Gondozott állatai száma" Binding="{Binding GondozottAllatok.Count}" />
+                            <DataGridTextColumn Header="Munkahelyek száma" Binding="{Binding Munkahelyek.Count}" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+         
+        </TabControl>
+        <Button x:Name="btfrissites" Content="Frissites" HorizontalAlignment="Left" Margin="873,0,0,0" Click="btFrissites"   VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Window>

@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Menhely" />
+  <xs:element name="AllatMasikKetrecbe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="allat" nillable="true" type="q1:Allat" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="hova" nillable="true" type="q2:Ketrec" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatMasikKetrecbeResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatListazas">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatListazasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="AllatListazasResult" nillable="true" type="q3:ArrayOfAllat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatListazasEgy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nev" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatListazasEgyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="AllatListazasEgyResult" nillable="true" type="q4:ArrayOfAllat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatModositas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="allat" nillable="true" type="q5:Allat" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q6:Gondozo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatModositasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatTorlese">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="allat" nillable="true" type="q7:Allat" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q8:Gondozo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatTorleseResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatGondozas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="allat" nillable="true" type="q9:Allat" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q10:Gondozo" />
+        <xs:element minOccurs="0" name="jegyzokonyv" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatGondozasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatFelvetel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nev" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="leiras" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kor" type="xs:int" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="faj" type="q11:AllatFaj" />
+        <xs:element minOccurs="0" name="alFaj" nillable="true" type="xs:string" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="ketrec" nillable="true" type="q12:Ketrec" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q13:Gondozo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatFelvetelResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Bejelenkezes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nev" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="jelszo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BejelenkezesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="BejelenkezesResult" nillable="true" type="q14:Gondozo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozoListazas">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozoListazasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="GondozoListazasResult" nillable="true" type="q15:ArrayOfGondozo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozoListazasEgy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nev" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozoListazasEgyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="GondozoListazasEgyResult" nillable="true" type="q16:ArrayOfGondozo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozoModositas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q17:Gondozo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozoModositasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozoLetrehozas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nev" nillable="true" type="xs:string" />
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="beosztas" type="q18:GondozoBeosztas" />
+        <xs:element minOccurs="0" name="jelszo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="munkahely" nillable="true" type="q19:Telephely" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozoLetrehozasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozoTorles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q20:Gondozo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozoTorlesResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BejelentkezesEllenorzesGondozo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q21:Gondozo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BejelentkezesEllenorzesGondozoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BejelentkezesEllenorzesGondozoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozottAllatHozzaadas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q22:Gondozo" />
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="allat" nillable="true" type="q23:Allat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozottAllatHozzaadasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyGondozohozAdas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q24:Gondozo" />
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="telephely" nillable="true" type="q25:Telephely" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyGondozohozAdasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozottAllatEltavolitas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q26:Gondozo" />
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="allat" nillable="true" type="q27:Allat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GondozottAllatEltavolitasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyGondozotolLevetel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="gondozo" nillable="true" type="q28:Gondozo" />
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="telephely" nillable="true" type="q29:Telephely" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyGondozotolLevetelResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Adomanyozas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="orokbefogado" nillable="true" type="q30:Orokbefogado" />
+        <xs:element minOccurs="0" name="adomanyOsszeg" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AdomanyozasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Bejelentkezes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nev" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="jelszo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BejelentkezesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="BejelentkezesResult" nillable="true" type="q31:Orokbefogado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BejelentkezesEllenorzesOrokbefogado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="orokbefogado" nillable="true" type="q32:Orokbefogado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BejelentkezesEllenorzesOrokbefogadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BejelentkezesEllenorzesOrokbefogadoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Regisztracio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nev" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="jelszo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegisztracioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegisztracioResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrokbefogadoListazas">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrokbefogadoListazasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="OrokbefogadoListazasResult" nillable="true" type="q33:ArrayOfOrokbefogado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrokbefogadoListazasEgy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nev" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrokbefogadoListazasEgyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="OrokbefogadoListazasEgyResult" nillable="true" type="q34:ArrayOfOrokbefogado" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrokbefogadasElfogadasa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="allat" nillable="true" type="q35:Allat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrokbefogadasElfogadasaResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrokbefogadasVisszautasitas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="allat" nillable="true" type="q36:Allat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OrokbefogadasVisszautasitasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KerelemLeadas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="orokbefogado" nillable="true" type="q37:Orokbefogado" />
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="allat" nillable="true" type="q38:Allat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KerelemLeadasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyFelvetel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cim" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyFelvetelResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetrecHozzaadas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="telephely" nillable="true" type="q39:Telephely" />
+        <xs:element minOccurs="0" name="ketrecMeret" type="xs:int" />
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="faj" type="q40:AllatFaj" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetrecHozzaadasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetrecTorles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="telephely" nillable="true" type="q41:Telephely" />
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="ketrec" nillable="true" type="q42:Ketrec" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetrecTorlesResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetrecModositas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="ketrec" nillable="true" type="q43:Ketrec" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetrecModositasResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyTorles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="telephely" nillable="true" type="q44:Telephely" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyTorlesResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatMasikTelephelyre">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="allat" nillable="true" type="q45:Allat" />
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="hovaTelep" nillable="true" type="q46:Telephely" />
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="hovaKetrec" nillable="true" type="q47:Ketrec" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AllatMasikTelephelyreResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyListazas">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyListazasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="TelephelyListazasResult" nillable="true" type="q48:ArrayOfTelephely" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyListazasEgy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cim" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TelephelyListazasEgyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="TelephelyListazasEgyResult" nillable="true" type="q49:ArrayOfTelephely" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetrecListazas">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetrecListazasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="KetrecListazasResult" nillable="true" type="q50:ArrayOfKetrec" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetrecListazasEgy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetrecListazasEgyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/Menhely" minOccurs="0" name="KetrecListazasEgyResult" nillable="true" type="q51:ArrayOfKetrec" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

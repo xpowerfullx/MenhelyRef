@@ -1,0 +1,17 @@
+﻿<Window x:Class="Orokbefogado_Client.Regisztracio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Regisztráció" Height="355" Width="286" ResizeMode="NoResize">
+    <Grid>
+        <Image Margin="0,10,10,0" Source="logo.png" Stretch="Fill" HorizontalAlignment="Right" Width="258" Height="122" VerticalAlignment="Top"/>
+        <Label Content="Felhasználónév" HorizontalAlignment="Left" Margin="93,132,0,0" VerticalAlignment="Top" Height="28" Width="113"/>
+        <PasswordBox x:Name="password_reg1" HorizontalAlignment="Left" Margin="63,196,0,0" VerticalAlignment="Top" Width="148" Height="24"/>
+        <PasswordBox  x:Name="password_reg2" HorizontalAlignment="Left" Margin="63,238,0,0" VerticalAlignment="Top" Width="148" Height="24"/>
+        <Label Content="Jelszó megerősítése" HorizontalAlignment="Left" Margin="80,215,0,0" VerticalAlignment="Top" Width="133"/>
+        <TextBox x:Name="textbox_felhasznalonev_reg" HorizontalAlignment="Left" Height="23" Margin="63,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+        <Label Content="Jelszó" HorizontalAlignment="Left" Margin="115,174,0,0" VerticalAlignment="Top" Width="48"/>
+        <Button x:Name="button_regisztracio_reg" Content="Regisztráció megerősítése" HorizontalAlignment="Left" Margin="59,265,0,0" VerticalAlignment="Top" Width="157" Height="28" Click="button_regisztracio_reg_Click" IsDefault="True"/>
+        <Label x:Name="label_hibauzenet_reg"  HorizontalAlignment="Left" Margin="4,289,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

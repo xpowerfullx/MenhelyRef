@@ -1,0 +1,103 @@
+﻿<Window x:Class="Menhely.FoAblak"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cicabarát menhely Gondozói alkalmazás" Height="538" Width="1000" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" MinHeight="538" MinWidth="1000">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="112" Margin="10,6,0,0" VerticalAlignment="Top" Width="237" Source="Resources/logo.png" StretchDirection="DownOnly"/>
+        <DataGrid x:Name="allatokDG" ItemsSource="{Binding Allatok}" SelectedItem="{Binding KivalsztottAllat}" Margin="252,50,12,10" IsReadOnly="True" AutoGenerateColumns="False" MouseDoubleClick="allatokDG_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Állat neve" Width="100" Binding="{Binding Nev}" />
+                <DataGridTextColumn Header="Faja" Width="80" Binding="{Binding Faj}" />
+                <DataGridTextColumn Header="Alfaja" Width="80" Binding="{Binding AlFaj}" />
+                <DataGridTextColumn Header="Kora" Width="40" Binding="{Binding Kor}" />
+                <DataGridTextColumn Header="Telephely" Width="120" Binding="{Binding Ketrec.Hely.Cim}" />
+                <DataGridTextColumn Header="Ketrec ID" Width="60" Binding="{Binding Ketrec.KetrecID}" />
+                <DataGridTextColumn Header="Örökbeadási állapot" Width="130" Binding="{Binding Allapot}" />
+                <DataGridTextColumn Header="Örökbefogadó" Width="110" Binding="{Binding Orokbefogado.Nev}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <GroupBox Header="Állatkezelése" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Height="279" Width="237">
+            <StackPanel>
+                <Button HorizontalAlignment="Center" HorizontalContentAlignment="Left" VerticalAlignment="Top" Margin="0,10,0,0" Height="40" Width="200" Click="btAllatGondozas" IsEnabled="{Binding Lock}">
+                    <Button.Content>
+                        <DockPanel >
+                            <Image HorizontalAlignment="Center" Margin="10,0,0,0" VerticalAlignment="Center" Width="20" Source="Resources/note.png" StretchDirection="DownOnly"/>
+                            <Label HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Content="Állat gondozása" DockPanel.Dock="Top"/>
+                        </DockPanel>
+                    </Button.Content>
+                </Button>
+                <Button HorizontalAlignment="Center" HorizontalContentAlignment="Left" VerticalAlignment="Top" Margin="0,5,0,0" Width="200" Height="30" IsEnabled="True" Click="btOrokbefogadasok">
+                    <Button.Content>
+                        <DockPanel >
+                            <Image HorizontalAlignment="Center" Margin="10,0,0,0" VerticalAlignment="Center" Width="20" Source="Resources/decide.png" StretchDirection="DownOnly"/>
+                            <Label HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Content="Örökbefogadások kezelése" DockPanel.Dock="Top"/>
+                        </DockPanel>
+                    </Button.Content>
+                </Button>
+                <Button  HorizontalAlignment="Center" HorizontalContentAlignment="Left" VerticalAlignment="Top" Margin="0,5,0,0" Height="30" Width="200" IsEnabled="{Binding Lock}" Click="btAllatModositas">
+                    <Button.Content>
+                        <DockPanel >
+                            <Image HorizontalAlignment="Center" Margin="10,0,0,0" VerticalAlignment="Center" Width="20" Source="Resources/edit.png" StretchDirection="DownOnly"/>
+                            <Label HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Content="Állat adatainak módosítása" DockPanel.Dock="Top"/>
+                        </DockPanel>
+                    </Button.Content>
+                </Button>
+                <Button HorizontalAlignment="Center" HorizontalContentAlignment="Left" VerticalAlignment="Top" Margin="0,5,0,0" Height="30" Width="200" IsEnabled="{Binding Lock}" Click="btAllatMasikKetrecbe">
+                    <Button.Content>
+                        <DockPanel >
+                            <Image HorizontalAlignment="Center" Margin="10,0,0,0" VerticalAlignment="Center" Width="20" Source="Resources/replace.png" StretchDirection="DownOnly"/>
+                            <Label HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Content="Állat áthelyezése" DockPanel.Dock="Top"/>
+                        </DockPanel>
+                    </Button.Content>
+                </Button>
+                <Button HorizontalAlignment="Center" HorizontalContentAlignment="Left" VerticalAlignment="Top" Margin="0,5,0,0" Width="200" Height="30" IsEnabled="{Binding Lock}" Click="btAllatTorles">
+                    <Button.Content>
+                        <DockPanel >
+                            <Image HorizontalAlignment="Center" Margin="10,0,0,0" VerticalAlignment="Center" Width="20" Source="Resources/remove.png" StretchDirection="DownOnly"/>
+                            <Label HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Content="Állat törlése" DockPanel.Dock="Top"/>
+                        </DockPanel>
+                    </Button.Content>
+                </Button>
+                <Button x:Name="ujAllatBtn" HorizontalAlignment="Center" HorizontalContentAlignment="Left" VerticalAlignment="Top" Margin="0,15,0,0" Height="40" Width="200" IsEnabled="False" Click="btUjAllat">
+                    <Button.Content>
+                        <DockPanel >
+                            <Image HorizontalAlignment="Center" Margin="10,0,0,0" VerticalAlignment="Center" Width="20" Source="Resources/add.png" StretchDirection="DownOnly"/>
+                            <Label HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center"  Content="Új állat felvétele" DockPanel.Dock="Top"/>
+                        </DockPanel>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+
+        </GroupBox>
+        <GroupBox Header="Az ön adatai" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" Height="97" Width="237">
+            <StackPanel>
+                <Label x:Name="gondozoNevLabel" Content="Label" Margin="10,5,0,0" />
+                <Button HorizontalAlignment="Center" HorizontalContentAlignment="Left" VerticalAlignment="Top" Margin="0,5,0,0" Height="30" Width="200" Click="btGondozoAdatmodositas" IsEnabled="True">
+                    <Button.Content>
+                        <DockPanel >
+                            <Image HorizontalAlignment="Center" Margin="10,0,0,0" VerticalAlignment="Center" Width="20" Source="Resources/user.png" StretchDirection="DownOnly"/>
+                            <Label HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Center" Content="Saját adatok módosítása" DockPanel.Dock="Top"/>
+                        </DockPanel>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+        </GroupBox>
+        <Label Content="Az ön gondozott állatai:" HorizontalAlignment="Left" Margin="252,24,0,0" VerticalAlignment="Top"/>
+        <Button Margin="0,10,12,0" VerticalAlignment="Top" Height="35" Click="btKijelentkezes" HorizontalAlignment="Right" Width="113">
+            <Button.Content>
+                <DockPanel >
+                    <Image HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="25" Source="Resources/logout.png" StretchDirection="DownOnly"/>
+                    <Label HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Center" Content="Kijelentkezés" DockPanel.Dock="Top"/>
+                </DockPanel>
+            </Button.Content>
+        </Button>
+        <Button Margin="0,10,130,0" VerticalAlignment="Top" Height="35" Click="btFrissites" HorizontalAlignment="Right" Width="82">
+            <Button.Content>
+                <DockPanel >
+                    <Image HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="20" Source="Resources/refresh.png" StretchDirection="DownOnly"/>
+                    <Label HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Center" Content="Frissítés" DockPanel.Dock="Top"/>
+                </DockPanel>
+            </Button.Content>
+        </Button>
+    </Grid>
+</Window>

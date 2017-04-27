@@ -1,0 +1,53 @@
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.exe.config
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.exe
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.pdb
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\FoAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\MainWindow.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\FoAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\MainWindow.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\App.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client_MarkupCompile.cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.g.resources
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.Properties.Resources.resources
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.csproj.GenerateResource.Cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.exe
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.pdb
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.exe.config
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.exe
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.pdb
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.csprojResolveAssemblyReference.cache
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\FoAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\MainWindow.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\FoAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\MainWindow.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\App.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client_MarkupCompile.cache
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.g.resources
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.Properties.Resources.resources
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.csproj.GenerateResource.Cache
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.exe
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.pdb
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.exe.config
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.exe
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.pdb
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.exe
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.pdb
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.csprojResolveAssemblyReference.cache
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\FoAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\MainWindow.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\Regisztracio.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\FoAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\MainWindow.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\Regisztracio.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\App.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client_MarkupCompile.cache
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.g.resources
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.Properties.Resources.resources
+C:\Users\hallgato\Desktop\Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.csproj.GenerateResource.Cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Orokbefogado_Client.csprojResolveAssemblyReference.cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\AllatAdatWindow.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Regisztracio.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\AllatAdatWindow.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Orokbefogado_Client\obj\Debug\Regisztracio.g.cs
+C:\Users\xpowe\Desktop\AnDiktalBT_forras\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.exe.config
+C:\Users\HP\Documents\AnDiktalBT_forras\AnDiktalBT_forras\Menhely\Orokbefogado_Client\bin\Debug\Orokbefogado_Client.exe.config

@@ -1,0 +1,25 @@
+﻿<Window x:Class="Orokbefogado_Client.AllatAdatWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Állat adatai" Height="280.523" Width="345.746">
+    <Grid>
+        <GroupBox Header="Adatok" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="203" Width="318">
+            <Grid>
+                <Label Content="Név:" Margin="0,0"/>
+                <Label Content="{Binding Nev}" Margin="30,0"/>
+                <Label Content="Kor:" Margin="0,15"/>
+                <Label Content="{Binding Kor}" Margin="30,15"/>
+                <Label Content="Faj:" Margin="0,30"/>
+                <Label Content="{Binding Faj}" Margin="30,30,10,15"></Label>
+                <Label Content="Alfaj:" Margin="0,45"/>
+                <Label Content="{Binding AlFaj}" Margin="30,45,10,45"></Label>
+                <Label Content="Leírás:" Margin="0,60"/>
+                <Label Content="{Binding Leiras}" Margin="35,60,10,60"></Label>
+                <Label Content="Örökbefogadás állapota:" Margin="0,75"></Label>
+                <Label Content="{Binding Allapot}" Margin="140,75,10,75"></Label>
+            </Grid>
+
+        </GroupBox>
+        <Button Content="Bezárás" HorizontalAlignment="Left" Margin="131,218,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+    </Grid>
+</Window>

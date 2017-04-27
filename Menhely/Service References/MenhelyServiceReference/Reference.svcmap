@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="367df0aa-78ba-4cf9-911a-434f04b2a8eb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="fa346549-f0e1-4d39-b37a-468bce351236" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="a3f38e5e-b9c8-44c6-a737-b47bef1e8e29" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="f71ed20a-c70b-4f14-9b8d-feb324a4702b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd3" />
+    <MetadataFile FileName="Vezerlo.wsdl" MetadataType="Wsdl" ID="c1255052-eeb8-45f1-b6fa-a2b9135e247b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?wsdl" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="28663ac3-e7eb-44bb-82c9-8ceaff6b6245" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd2" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="705afcd4-f993-406c-8585-13cf19cd4c38" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

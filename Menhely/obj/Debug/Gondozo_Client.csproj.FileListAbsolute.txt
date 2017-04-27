@@ -1,0 +1,83 @@
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\bin\Debug\Menhely.exe.config
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\bin\Debug\Menhely.exe
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\bin\Debug\Menhely.pdb
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Gondozo_Client.csprojResolveAssemblyReference.cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\AllatAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\AllatAthelyezesAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\FoAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\GondozasAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\GondozoAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\MainWindow.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\OrokbefogadasAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\UjAllatAblak.baml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\AllatAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\AllatAthelyezesAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\FoAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\GondozasAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\GondozoAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\MainWindow.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\OrokbefogadasAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\UjAllatAblak.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\App.g.cs
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Menhely_MarkupCompile.cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Menhely.g.resources
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Menhely.Properties.Resources.resources
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Gondozo_Client.csproj.GenerateResource.Cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Menhely.exe
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Menhely.pdb
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\bin\Debug\Menhely.exe.config
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\bin\Debug\Menhely.exe
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\bin\Debug\Menhely.pdb
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Gondozo_Client.csprojResolveAssemblyReference.cache
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\AllatAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\AllatAthelyezesAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\FoAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\GondozasAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\GondozoAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\MainWindow.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\OrokbefogadasAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\UjAllatAblak.baml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\AllatAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\AllatAthelyezesAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\FoAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\GondozasAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\GondozoAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\MainWindow.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\OrokbefogadasAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\UjAllatAblak.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\App.g.cs
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Menhely_MarkupCompile.cache
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Menhely.g.resources
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Menhely.Properties.Resources.resources
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Gondozo_Client.csproj.GenerateResource.Cache
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Menhely.exe
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Menhely\obj\Debug\Menhely.pdb
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\bin\Debug\Menhely.exe.config
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\Menhely.exe
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\Menhely.pdb
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\bin\Debug\Menhely.exe
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\bin\Debug\Menhely.pdb
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\Gondozo_Client.csprojResolveAssemblyReference.cache
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\AllatAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\AllatAthelyezesAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\FoAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\GondozasAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\GondozoAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\MainWindow.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\OrokbefogadasAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\UjAllatAblak.baml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\AllatAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\AllatAthelyezesAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\FoAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\GondozasAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\GondozoAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\MainWindow.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\OrokbefogadasAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\UjAllatAblak.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\App.g.cs
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\Menhely_MarkupCompile.cache
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\Menhely.g.resources
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\Menhely.Properties.Resources.resources
+C:\Users\hallgato\Desktop\Menhely\Menhely\Menhely\obj\Debug\Gondozo_Client.csproj.GenerateResource.Cache
+C:\Users\xpowe\Desktop\AnDiktalBT_forras\Menhely\Menhely\bin\Debug\Menhely.exe.config
+C:\Users\HP\Documents\AnDiktalBT_forras\AnDiktalBT_forras\Menhely\Menhely\bin\Debug\Menhely.exe.config

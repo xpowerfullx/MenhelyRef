@@ -1,0 +1,17 @@
+﻿<Window x:Class="Admin_Client.KetrecFelveteleAblak"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ketrec Felvétele" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Height="177" Width="300">
+    <Grid Margin="0,0,0,7">
+        <GroupBox Header="Ketrec" HorizontalAlignment="Left" Height="98" Margin="10,10,0,0" VerticalAlignment="Top" Width="272">
+            <Grid>
+                <Label Content="Méret: " HorizontalAlignment="Left" Height="25" Margin="4,14,0,0" VerticalAlignment="Top" Width="85"/>
+                <TextBox x:Name="MeretTextBox" Text="0" PreviewTextInput="NumberValidationTextBox" HorizontalAlignment="Left" Height="27" Margin="94,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+                <Label Content="Állatfaj:" HorizontalAlignment="Left" Height="25" Margin="4,44,0,0" VerticalAlignment="Top" Width="85"/>
+                <ComboBox x:Name="AllatFajComboBox" HorizontalAlignment="Left" Height="23" Margin="93,46,0,0" VerticalAlignment="Top" Width="157"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="MegseButton" Content="Mégse" Margin="10,0,162,3" Click="MegseButton_Click" Height="25" VerticalAlignment="Bottom"/>
+        <Button x:Name="MentesButton" Content="Mentés" Height="25" Margin="0,0,10,3" Width="120" Click="MentesButton_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+    </Grid>
+</Window>

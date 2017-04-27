@@ -1,0 +1,16 @@
+﻿<Window x:Class="Admin_Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Bejelentkezés" Height="350" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="134" Margin="10,10,0,0" VerticalAlignment="Top" Width="272" Source="Resources/logo.png" StretchDirection="DownOnly"/>
+        <Label Content="Bejelentkezési név:" HorizontalAlignment="Left" Margin="27,174,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="nevTB" HorizontalAlignment="Left" Height="23" Margin="141,174,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126"/>
+        <Label Content="Jelszó:" HorizontalAlignment="Left" Margin="92,199,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="jelszoTB" Password="" HorizontalAlignment="Left" Margin="141,202,0,0" VerticalAlignment="Top" Width="126" Height="23"/>
+        <Button x:Name="BejelentkezesButton" Content="Bejelentkezés" HorizontalAlignment="Left" Margin="27,230,0,0" VerticalAlignment="Top" Width="240" Click="BejelentkezesButton_Click" IsDefault="True"/>
+        <Button x:Name="KilepesButton" Content="Kilépés" HorizontalAlignment="Left" Margin="27,255,0,0" VerticalAlignment="Top" Width="240" Click="KilepesButton_Click"/>
+        <Label x:Name="hibaLabel" Content="" HorizontalAlignment="Left" Margin="10,285,0,0" VerticalAlignment="Top" Background="White" Foreground="#FFFF0202"/>
+        <Label Content="Adminisztrátori alkalmazás" HorizontalAlignment="Left" Margin="118,143,0,0" VerticalAlignment="Top" Background="White" Foreground="#004079"/>
+    </Grid>
+</Window>

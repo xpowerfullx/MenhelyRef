@@ -1,0 +1,15 @@
+﻿<Window x:Class="Admin_Client.MunkahelyModositasAblak"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Admin_Client"
+        mc:Ignorable="d"
+        Title="Gondozó munkahelyei" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Height="300" Width="300">
+    <Grid>
+
+        <Button x:Name="btSzuntet" Content="Munkahelyről levétel" HorizontalAlignment="Left" Margin="10,157,0,0" Click="btSzuntet_Click"  VerticalAlignment="Top" Width="144"/>
+        <Button x:Name="btUj" Content="Új munkahely" HorizontalAlignment="Left" Margin="10,184,0,0" VerticalAlignment="Top" Click="btUj_Click" Width="144"/>
+        <ListBox x:Name="telephelyekLB" ItemsSource="{Binding Munkahelyek}" DisplayMemberPath="Cim" HorizontalAlignment="Left" Height="142" Margin="10,10,0,0" VerticalAlignment="Top" Width="274"/>
+    </Grid>
+</Window>

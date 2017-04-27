@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Vezerlo" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Menhely" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAllatKezelo_AllatMasikKetrecbe_InputMessage">
+    <wsdl:part name="parameters" element="tns:AllatMasikKetrecbe" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatMasikKetrecbe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AllatMasikKetrecbeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatListazas_InputMessage">
+    <wsdl:part name="parameters" element="tns:AllatListazas" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatListazas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AllatListazasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatListazasEgy_InputMessage">
+    <wsdl:part name="parameters" element="tns:AllatListazasEgy" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatListazasEgy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AllatListazasEgyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatModositas_InputMessage">
+    <wsdl:part name="parameters" element="tns:AllatModositas" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatModositas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AllatModositasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatTorlese_InputMessage">
+    <wsdl:part name="parameters" element="tns:AllatTorlese" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatTorlese_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AllatTorleseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatGondozas_InputMessage">
+    <wsdl:part name="parameters" element="tns:AllatGondozas" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatGondozas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AllatGondozasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatFelvetel_InputMessage">
+    <wsdl:part name="parameters" element="tns:AllatFelvetel" />
+  </wsdl:message>
+  <wsdl:message name="IAllatKezelo_AllatFelvetel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AllatFelvetelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_Bejelenkezes_InputMessage">
+    <wsdl:part name="parameters" element="tns:Bejelenkezes" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_Bejelenkezes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BejelenkezesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozoListazas_InputMessage">
+    <wsdl:part name="parameters" element="tns:GondozoListazas" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozoListazas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GondozoListazasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozoListazasEgy_InputMessage">
+    <wsdl:part name="parameters" element="tns:GondozoListazasEgy" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozoListazasEgy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GondozoListazasEgyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozoModositas_InputMessage">
+    <wsdl:part name="parameters" element="tns:GondozoModositas" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozoModositas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GondozoModositasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozoLetrehozas_InputMessage">
+    <wsdl:part name="parameters" element="tns:GondozoLetrehozas" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozoLetrehozas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GondozoLetrehozasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozoTorles_InputMessage">
+    <wsdl:part name="parameters" element="tns:GondozoTorles" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozoTorles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GondozoTorlesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_BejelentkezesEllenorzesGondozo_InputMessage">
+    <wsdl:part name="parameters" element="tns:BejelentkezesEllenorzesGondozo" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_BejelentkezesEllenorzesGondozo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BejelentkezesEllenorzesGondozoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozottAllatHozzaadas_InputMessage">
+    <wsdl:part name="parameters" element="tns:GondozottAllatHozzaadas" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozottAllatHozzaadas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GondozottAllatHozzaadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_TelephelyGondozohozAdas_InputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyGondozohozAdas" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_TelephelyGondozohozAdas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyGondozohozAdasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozottAllatEltavolitas_InputMessage">
+    <wsdl:part name="parameters" element="tns:GondozottAllatEltavolitas" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_GondozottAllatEltavolitas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GondozottAllatEltavolitasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_TelephelyGondozotolLevetel_InputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyGondozotolLevetel" />
+  </wsdl:message>
+  <wsdl:message name="IGondozoKezelo_TelephelyGondozotolLevetel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyGondozotolLevetelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_Adomanyozas_InputMessage">
+    <wsdl:part name="parameters" element="tns:Adomanyozas" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_Adomanyozas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AdomanyozasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_Bejelentkezes_InputMessage">
+    <wsdl:part name="parameters" element="tns:Bejelentkezes" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_Bejelentkezes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BejelentkezesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_BejelentkezesEllenorzesOrokbefogado_InputMessage">
+    <wsdl:part name="parameters" element="tns:BejelentkezesEllenorzesOrokbefogado" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_BejelentkezesEllenorzesOrokbefogado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BejelentkezesEllenorzesOrokbefogadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_Regisztracio_InputMessage">
+    <wsdl:part name="parameters" element="tns:Regisztracio" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_Regisztracio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisztracioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_OrokbefogadoListazas_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrokbefogadoListazas" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_OrokbefogadoListazas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrokbefogadoListazasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_OrokbefogadoListazasEgy_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrokbefogadoListazasEgy" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadoKezelo_OrokbefogadoListazasEgy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrokbefogadoListazasEgyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadasKezelo_OrokbefogadasElfogadasa_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrokbefogadasElfogadasa" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadasKezelo_OrokbefogadasElfogadasa_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrokbefogadasElfogadasaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadasKezelo_OrokbefogadasVisszautasitas_InputMessage">
+    <wsdl:part name="parameters" element="tns:OrokbefogadasVisszautasitas" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadasKezelo_OrokbefogadasVisszautasitas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OrokbefogadasVisszautasitasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadasKezelo_KerelemLeadas_InputMessage">
+    <wsdl:part name="parameters" element="tns:KerelemLeadas" />
+  </wsdl:message>
+  <wsdl:message name="IOrokbefogadasKezelo_KerelemLeadas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KerelemLeadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_TelephelyFelvetel_InputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyFelvetel" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_TelephelyFelvetel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyFelvetelResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_KetrecHozzaadas_InputMessage">
+    <wsdl:part name="parameters" element="tns:KetrecHozzaadas" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_KetrecHozzaadas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KetrecHozzaadasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_KetrecTorles_InputMessage">
+    <wsdl:part name="parameters" element="tns:KetrecTorles" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_KetrecTorles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KetrecTorlesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_KetrecModositas_InputMessage">
+    <wsdl:part name="parameters" element="tns:KetrecModositas" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_KetrecModositas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KetrecModositasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_TelephelyTorles_InputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyTorles" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_TelephelyTorles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyTorlesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_AllatMasikTelephelyre_InputMessage">
+    <wsdl:part name="parameters" element="tns:AllatMasikTelephelyre" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_AllatMasikTelephelyre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AllatMasikTelephelyreResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_TelephelyListazas_InputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyListazas" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_TelephelyListazas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyListazasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_TelephelyListazasEgy_InputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyListazasEgy" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_TelephelyListazasEgy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TelephelyListazasEgyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_KetrecListazas_InputMessage">
+    <wsdl:part name="parameters" element="tns:KetrecListazas" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_KetrecListazas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KetrecListazasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_KetrecListazasEgy_InputMessage">
+    <wsdl:part name="parameters" element="tns:KetrecListazasEgy" />
+  </wsdl:message>
+  <wsdl:message name="ITelephelyKezelo_KetrecListazasEgy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KetrecListazasEgyResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAllatKezelo">
+    <wsdl:operation name="AllatMasikKetrecbe">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAllatKezelo/AllatMasikKetrecbe" message="tns:IAllatKezelo_AllatMasikKetrecbe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAllatKezelo/AllatMasikKetrecbeResponse" message="tns:IAllatKezelo_AllatMasikKetrecbe_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AllatListazas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAllatKezelo/AllatListazas" message="tns:IAllatKezelo_AllatListazas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAllatKezelo/AllatListazasResponse" message="tns:IAllatKezelo_AllatListazas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AllatListazasEgy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAllatKezelo/AllatListazasEgy" message="tns:IAllatKezelo_AllatListazasEgy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAllatKezelo/AllatListazasEgyResponse" message="tns:IAllatKezelo_AllatListazasEgy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AllatModositas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAllatKezelo/AllatModositas" message="tns:IAllatKezelo_AllatModositas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAllatKezelo/AllatModositasResponse" message="tns:IAllatKezelo_AllatModositas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AllatTorlese">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAllatKezelo/AllatTorlese" message="tns:IAllatKezelo_AllatTorlese_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAllatKezelo/AllatTorleseResponse" message="tns:IAllatKezelo_AllatTorlese_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AllatGondozas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAllatKezelo/AllatGondozas" message="tns:IAllatKezelo_AllatGondozas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAllatKezelo/AllatGondozasResponse" message="tns:IAllatKezelo_AllatGondozas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AllatFelvetel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAllatKezelo/AllatFelvetel" message="tns:IAllatKezelo_AllatFelvetel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAllatKezelo/AllatFelvetelResponse" message="tns:IAllatKezelo_AllatFelvetel_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IGondozoKezelo">
+    <wsdl:operation name="Bejelenkezes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/Bejelenkezes" message="tns:IGondozoKezelo_Bejelenkezes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/BejelenkezesResponse" message="tns:IGondozoKezelo_Bejelenkezes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GondozoListazas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozoListazas" message="tns:IGondozoKezelo_GondozoListazas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozoListazasResponse" message="tns:IGondozoKezelo_GondozoListazas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GondozoListazasEgy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozoListazasEgy" message="tns:IGondozoKezelo_GondozoListazasEgy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozoListazasEgyResponse" message="tns:IGondozoKezelo_GondozoListazasEgy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GondozoModositas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozoModositas" message="tns:IGondozoKezelo_GondozoModositas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozoModositasResponse" message="tns:IGondozoKezelo_GondozoModositas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GondozoLetrehozas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozoLetrehozas" message="tns:IGondozoKezelo_GondozoLetrehozas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozoLetrehozasResponse" message="tns:IGondozoKezelo_GondozoLetrehozas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GondozoTorles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozoTorles" message="tns:IGondozoKezelo_GondozoTorles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozoTorlesResponse" message="tns:IGondozoKezelo_GondozoTorles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BejelentkezesEllenorzesGondozo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/BejelentkezesEllenorzesGondozo" message="tns:IGondozoKezelo_BejelentkezesEllenorzesGondozo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/BejelentkezesEllenorzesGondozoResponse" message="tns:IGondozoKezelo_BejelentkezesEllenorzesGondozo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GondozottAllatHozzaadas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozottAllatHozzaadas" message="tns:IGondozoKezelo_GondozottAllatHozzaadas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozottAllatHozzaadasResponse" message="tns:IGondozoKezelo_GondozottAllatHozzaadas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TelephelyGondozohozAdas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/TelephelyGondozohozAdas" message="tns:IGondozoKezelo_TelephelyGondozohozAdas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/TelephelyGondozohozAdasResponse" message="tns:IGondozoKezelo_TelephelyGondozohozAdas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GondozottAllatEltavolitas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozottAllatEltavolitas" message="tns:IGondozoKezelo_GondozottAllatEltavolitas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/GondozottAllatEltavolitasResponse" message="tns:IGondozoKezelo_GondozottAllatEltavolitas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TelephelyGondozotolLevetel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGondozoKezelo/TelephelyGondozotolLevetel" message="tns:IGondozoKezelo_TelephelyGondozotolLevetel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGondozoKezelo/TelephelyGondozotolLevetelResponse" message="tns:IGondozoKezelo_TelephelyGondozotolLevetel_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IOrokbefogadoKezelo">
+    <wsdl:operation name="Adomanyozas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/Adomanyozas" message="tns:IOrokbefogadoKezelo_Adomanyozas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/AdomanyozasResponse" message="tns:IOrokbefogadoKezelo_Adomanyozas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Bejelentkezes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/Bejelentkezes" message="tns:IOrokbefogadoKezelo_Bejelentkezes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/BejelentkezesResponse" message="tns:IOrokbefogadoKezelo_Bejelentkezes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BejelentkezesEllenorzesOrokbefogado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/BejelentkezesEllenorzesOrokbefogado" message="tns:IOrokbefogadoKezelo_BejelentkezesEllenorzesOrokbefogado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/BejelentkezesEllenorzesOrokbefogadoResponse" message="tns:IOrokbefogadoKezelo_BejelentkezesEllenorzesOrokbefogado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Regisztracio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/Regisztracio" message="tns:IOrokbefogadoKezelo_Regisztracio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/RegisztracioResponse" message="tns:IOrokbefogadoKezelo_Regisztracio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrokbefogadoListazas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/OrokbefogadoListazas" message="tns:IOrokbefogadoKezelo_OrokbefogadoListazas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/OrokbefogadoListazasResponse" message="tns:IOrokbefogadoKezelo_OrokbefogadoListazas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrokbefogadoListazasEgy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/OrokbefogadoListazasEgy" message="tns:IOrokbefogadoKezelo_OrokbefogadoListazasEgy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrokbefogadoKezelo/OrokbefogadoListazasEgyResponse" message="tns:IOrokbefogadoKezelo_OrokbefogadoListazasEgy_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IOrokbefogadasKezelo">
+    <wsdl:operation name="OrokbefogadasElfogadasa">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrokbefogadasKezelo/OrokbefogadasElfogadasa" message="tns:IOrokbefogadasKezelo_OrokbefogadasElfogadasa_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrokbefogadasKezelo/OrokbefogadasElfogadasaResponse" message="tns:IOrokbefogadasKezelo_OrokbefogadasElfogadasa_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OrokbefogadasVisszautasitas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrokbefogadasKezelo/OrokbefogadasVisszautasitas" message="tns:IOrokbefogadasKezelo_OrokbefogadasVisszautasitas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrokbefogadasKezelo/OrokbefogadasVisszautasitasResponse" message="tns:IOrokbefogadasKezelo_OrokbefogadasVisszautasitas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KerelemLeadas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IOrokbefogadasKezelo/KerelemLeadas" message="tns:IOrokbefogadasKezelo_KerelemLeadas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IOrokbefogadasKezelo/KerelemLeadasResponse" message="tns:IOrokbefogadasKezelo_KerelemLeadas_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ITelephelyKezelo">
+    <wsdl:operation name="TelephelyFelvetel">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITelephelyKezelo/TelephelyFelvetel" message="tns:ITelephelyKezelo_TelephelyFelvetel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITelephelyKezelo/TelephelyFelvetelResponse" message="tns:ITelephelyKezelo_TelephelyFelvetel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KetrecHozzaadas">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITelephelyKezelo/KetrecHozzaadas" message="tns:ITelephelyKezelo_KetrecHozzaadas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITelephelyKezelo/KetrecHozzaadasResponse" message="tns:ITelephelyKezelo_KetrecHozzaadas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KetrecTorles">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITelephelyKezelo/KetrecTorles" message="tns:ITelephelyKezelo_KetrecTorles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITelephelyKezelo/KetrecTorlesResponse" message="tns:ITelephelyKezelo_KetrecTorles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KetrecModositas">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITelephelyKezelo/KetrecModositas" message="tns:ITelephelyKezelo_KetrecModositas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITelephelyKezelo/KetrecModositasResponse" message="tns:ITelephelyKezelo_KetrecModositas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TelephelyTorles">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITelephelyKezelo/TelephelyTorles" message="tns:ITelephelyKezelo_TelephelyTorles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITelephelyKezelo/TelephelyTorlesResponse" message="tns:ITelephelyKezelo_TelephelyTorles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AllatMasikTelephelyre">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITelephelyKezelo/AllatMasikTelephelyre" message="tns:ITelephelyKezelo_AllatMasikTelephelyre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITelephelyKezelo/AllatMasikTelephelyreResponse" message="tns:ITelephelyKezelo_AllatMasikTelephelyre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TelephelyListazas">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITelephelyKezelo/TelephelyListazas" message="tns:ITelephelyKezelo_TelephelyListazas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITelephelyKezelo/TelephelyListazasResponse" message="tns:ITelephelyKezelo_TelephelyListazas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TelephelyListazasEgy">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITelephelyKezelo/TelephelyListazasEgy" message="tns:ITelephelyKezelo_TelephelyListazasEgy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITelephelyKezelo/TelephelyListazasEgyResponse" message="tns:ITelephelyKezelo_TelephelyListazasEgy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KetrecListazas">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITelephelyKezelo/KetrecListazas" message="tns:ITelephelyKezelo_KetrecListazas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITelephelyKezelo/KetrecListazasResponse" message="tns:ITelephelyKezelo_KetrecListazas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KetrecListazasEgy">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITelephelyKezelo/KetrecListazasEgy" message="tns:ITelephelyKezelo_KetrecListazasEgy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITelephelyKezelo/KetrecListazasEgyResponse" message="tns:ITelephelyKezelo_KetrecListazasEgy_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAllatKezelo" type="tns:IAllatKezelo">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AllatMasikKetrecbe">
+      <soap:operation soapAction="http://tempuri.org/IAllatKezelo/AllatMasikKetrecbe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllatListazas">
+      <soap:operation soapAction="http://tempuri.org/IAllatKezelo/AllatListazas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllatListazasEgy">
+      <soap:operation soapAction="http://tempuri.org/IAllatKezelo/AllatListazasEgy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllatModositas">
+      <soap:operation soapAction="http://tempuri.org/IAllatKezelo/AllatModositas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllatTorlese">
+      <soap:operation soapAction="http://tempuri.org/IAllatKezelo/AllatTorlese" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllatGondozas">
+      <soap:operation soapAction="http://tempuri.org/IAllatKezelo/AllatGondozas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllatFelvetel">
+      <soap:operation soapAction="http://tempuri.org/IAllatKezelo/AllatFelvetel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IGondozoKezelo" type="tns:IGondozoKezelo">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Bejelenkezes">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/Bejelenkezes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GondozoListazas">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/GondozoListazas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GondozoListazasEgy">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/GondozoListazasEgy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GondozoModositas">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/GondozoModositas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GondozoLetrehozas">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/GondozoLetrehozas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GondozoTorles">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/GondozoTorles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BejelentkezesEllenorzesGondozo">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/BejelentkezesEllenorzesGondozo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GondozottAllatHozzaadas">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/GondozottAllatHozzaadas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TelephelyGondozohozAdas">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/TelephelyGondozohozAdas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GondozottAllatEltavolitas">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/GondozottAllatEltavolitas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TelephelyGondozotolLevetel">
+      <soap:operation soapAction="http://tempuri.org/IGondozoKezelo/TelephelyGondozotolLevetel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IOrokbefogadoKezelo" type="tns:IOrokbefogadoKezelo">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Adomanyozas">
+      <soap:operation soapAction="http://tempuri.org/IOrokbefogadoKezelo/Adomanyozas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Bejelentkezes">
+      <soap:operation soapAction="http://tempuri.org/IOrokbefogadoKezelo/Bejelentkezes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BejelentkezesEllenorzesOrokbefogado">
+      <soap:operation soapAction="http://tempuri.org/IOrokbefogadoKezelo/BejelentkezesEllenorzesOrokbefogado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Regisztracio">
+      <soap:operation soapAction="http://tempuri.org/IOrokbefogadoKezelo/Regisztracio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrokbefogadoListazas">
+      <soap:operation soapAction="http://tempuri.org/IOrokbefogadoKezelo/OrokbefogadoListazas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrokbefogadoListazasEgy">
+      <soap:operation soapAction="http://tempuri.org/IOrokbefogadoKezelo/OrokbefogadoListazasEgy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_IOrokbefogadasKezelo" type="tns:IOrokbefogadasKezelo">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="OrokbefogadasElfogadasa">
+      <soap:operation soapAction="http://tempuri.org/IOrokbefogadasKezelo/OrokbefogadasElfogadasa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OrokbefogadasVisszautasitas">
+      <soap:operation soapAction="http://tempuri.org/IOrokbefogadasKezelo/OrokbefogadasVisszautasitas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KerelemLeadas">
+      <soap:operation soapAction="http://tempuri.org/IOrokbefogadasKezelo/KerelemLeadas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpBinding_ITelephelyKezelo" type="tns:ITelephelyKezelo">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TelephelyFelvetel">
+      <soap:operation soapAction="http://tempuri.org/ITelephelyKezelo/TelephelyFelvetel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KetrecHozzaadas">
+      <soap:operation soapAction="http://tempuri.org/ITelephelyKezelo/KetrecHozzaadas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KetrecTorles">
+      <soap:operation soapAction="http://tempuri.org/ITelephelyKezelo/KetrecTorles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KetrecModositas">
+      <soap:operation soapAction="http://tempuri.org/ITelephelyKezelo/KetrecModositas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TelephelyTorles">
+      <soap:operation soapAction="http://tempuri.org/ITelephelyKezelo/TelephelyTorles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllatMasikTelephelyre">
+      <soap:operation soapAction="http://tempuri.org/ITelephelyKezelo/AllatMasikTelephelyre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TelephelyListazas">
+      <soap:operation soapAction="http://tempuri.org/ITelephelyKezelo/TelephelyListazas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TelephelyListazasEgy">
+      <soap:operation soapAction="http://tempuri.org/ITelephelyKezelo/TelephelyListazasEgy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KetrecListazas">
+      <soap:operation soapAction="http://tempuri.org/ITelephelyKezelo/KetrecListazas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KetrecListazasEgy">
+      <soap:operation soapAction="http://tempuri.org/ITelephelyKezelo/KetrecListazasEgy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Vezerlo">
+    <wsdl:port name="BasicHttpBinding_IAllatKezelo" binding="tns:BasicHttpBinding_IAllatKezelo">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IGondozoKezelo" binding="tns:BasicHttpBinding_IGondozoKezelo">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IOrokbefogadoKezelo" binding="tns:BasicHttpBinding_IOrokbefogadoKezelo">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_IOrokbefogadasKezelo" binding="tns:BasicHttpBinding_IOrokbefogadasKezelo">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpBinding_ITelephelyKezelo" binding="tns:BasicHttpBinding_ITelephelyKezelo">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/MenhelyServer/Vezerlo/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

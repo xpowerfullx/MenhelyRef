@@ -1,0 +1,38 @@
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\bin\Debug\Server.exe.config
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\bin\Debug\Server.exe
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\bin\Debug\Server.pdb
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\bin\Debug\EntityFramework.dll
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\bin\Debug\EntityFramework.SqlServer.dll
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\bin\Debug\EntityFramework.xml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\bin\Debug\EntityFramework.SqlServer.xml
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\obj\Debug\Server.exe
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\obj\Debug\Server.pdb
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\obj\Debug\Menhely.Migrations.init.resources
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\bin\Debug\Server.exe.config
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\obj\Debug\Server.exe
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\obj\Debug\Server.pdb
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\bin\Debug\Server.exe
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\bin\Debug\Server.pdb
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\bin\Debug\EntityFramework.dll
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\bin\Debug\EntityFramework.xml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\obj\Debug\Menhely.Migrations.init.resources
+D:\Users\Sasu\Desktop\Cicabarát Menhely\Menhely\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+D:\gerge\OneDrive\Dokumentumok\Egyetem\Szoftvertechnológia II\Szoftech\Program\Cicabarát Menhely\Menhely\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\bin\Debug\Server.exe.config
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\bin\Debug\Server.exe
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\bin\Debug\Server.pdb
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\bin\Debug\EntityFramework.dll
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\bin\Debug\EntityFramework.xml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\obj\Debug\Menhely.Migrations.init.resources
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\obj\Debug\Server.exe
+C:\Users\hallgato\Desktop\Menhely\Menhely\Server\obj\Debug\Server.pdb
+C:\Users\xpowe\Desktop\AnDiktalBT_forras\Menhely\Server\bin\Debug\Server.exe.config
+C:\Users\HP\Documents\AnDiktalBT_forras\AnDiktalBT_forras\Menhely\Server\bin\Debug\Server.exe.config

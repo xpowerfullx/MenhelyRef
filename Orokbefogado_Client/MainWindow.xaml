@@ -1,0 +1,18 @@
+﻿<Window x:Class="Orokbefogado_Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Bejelentkezés" Height="370" Width="286" ResizeMode="CanMinimize">
+    <Grid Margin="0,1,0,0" HorizontalAlignment="Right" Width="278" Height="337" VerticalAlignment="Top">
+        <Button x:Name="button_bejelentkezes" Content="Bejelentkezés" Margin="64,233,53,70" Click="button_bejelentkezes_Click" IsDefault="True"/>
+        <Button x:Name="button_regisztracio" Content="Regisztráció" Margin="104,272,99,45" Click="button_regisztracio_Click"/>
+        <TextBox x:Name="textbox_felhasznalonev" Margin="64,159,0,0" TextWrapping="Wrap" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Width="161" Text=""/>
+
+        <Label Content="Felhasználónév" HorizontalAlignment="Left" Margin="100,133,0,0" VerticalAlignment="Top"/>
+        <Label Content="Jelszó" HorizontalAlignment="Left" Margin="119,182,0,0" VerticalAlignment="Top"/>
+        <Image Margin="0,10,10,0" Source="logo.png" Stretch="Fill" HorizontalAlignment="Right" Width="258" Height="122" VerticalAlignment="Top"/>
+        <Label x:Name="label_hibauzenet" Foreground="#8b0000" HorizontalAlignment="Left" Margin="10,0,0,10" Height="26" VerticalAlignment="Bottom"/>
+        <Label Content="Belépés vendégként" BorderThickness="3" BorderBrush="Blue" Foreground="#1653fa" Margin="145,296,10,10" MouseDown="Label_MouseDown"/>
+        <PasswordBox x:Name="password_bejelentkezes"   HorizontalAlignment="Left" Margin="64,208,0,0" VerticalAlignment="Top" Width="161" Height="20" Password=""/>
+
+    </Grid>
+</Window>
